@@ -20,30 +20,34 @@ const Contact = () => {
 
   return (
     <div>
-      <form ref={refForm} action="" onSubmit={handleSubmit}>
+      <form
+        className="contact-form"
+        ref={refForm}
+        action=""
+        onSubmit={handleSubmit}
+      >
         <div className="header-contact">
           <h2>Formulario de contacto</h2>
-          <p>Por favor complete el formulario</p>
         </div>
 
-        <fieldset>
+        <fieldset className="name-form">
           <label htmlFor="">Nombre</label>
           <input name="username" type="text" placeholder="Sebastian" required />
         </fieldset>
 
-        <fieldset>
+        <fieldset className="email-form">
           <label htmlFor="" name="email">
             Email
           </label>
           <input
-            placeholder="seba.ceras@gmail.com"
+            placeholder="seba@gmail.com"
             type="email"
             name="email"
             required
           />
         </fieldset>
 
-        <fieldset>
+        <fieldset className="message-form">
           <label htmlFor="">Mensaje</label>
           <textarea
             name="message"
@@ -54,7 +58,10 @@ const Contact = () => {
             placeholder="Escribi tu mensaje aqui"
           ></textarea>
         </fieldset>
-        <button type="submit">Enviar</button>
+
+        <button className="button-send" type="submit">
+          Enviar
+        </button>
       </form>
     </div>
   );

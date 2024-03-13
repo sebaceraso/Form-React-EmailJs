@@ -1,0 +1,59 @@
+.contact-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400px;
+  height: fit-content;
+  color: #e1ebee;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.header-contact {
+  text-shadow: 2px 2px 2px hsl(0, 0%, 0%);
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.name-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 600;
+}
+.email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 600;
+}
+.message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.contact-form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.button-send {
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button-send:hover {
+  background: #002244;
+  color: #fff;
+}
