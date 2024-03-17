@@ -53,8 +53,8 @@ const Contact = () => {
             name="message"
             id=""
             cols="30"
-            rows="10"
-            maxLength="500"
+            rows="8"
+            maxLength="300"
             placeholder="Escribi tu mensaje aqui"
           ></textarea>
         </fieldset>
